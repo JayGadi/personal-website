@@ -1,0 +1,24 @@
+<%= provide(:title, "Home") %>
+<div class="center jumbotron">
+	<h1>Hello World.</h1>
+
+	<h2>
+    My name is Jay Gadi. I am a Software Developer in my final year at Carleton University.
+  </h2>
+
+  <%= link_to "About Me", about_path, class: "btn btn-lg btn-default" %>
+</div>
+
+<div class="portfolio">
+	<h2>Explore my portfolio by project type:</h2>
+	<nav>
+		<ul>
+			<li><%= link_to image_tag("web.png", size: "85", alt: "websites"), portfolio_path %></li>
+			<li><%= link_to image_tag("mobile.png", size: "85", alt: "mobile"), portfolio_path %></li>
+			<li><%= link_to image_tag("networking.png", size: "85", alt: "networking"), portfolio_path %></li>
+			<li><%= link_to image_tag("graphics.png", size: "85", alt: "graphics"), portfolio_path %></li>
+			<li><%= link_to image_tag("desktop.png", size: "85", alt: "desktop"), portfolio_path %></li>
+		</ul>
+	</nav>
+
+</div>
