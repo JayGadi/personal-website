@@ -75,15 +75,10 @@ footer {
 	small{
 		float: left;
 	}
-	ul {
-		float: right;
-		list-style: none; 
-		li {
-			float: left;
-			margin-left: 15px;
-		}
-	}
+	
 }
+
+/* portfolio */
 
 .portfolio {
 	
@@ -102,6 +97,10 @@ footer {
 		}
 	}
 
+}
+
+.container {
+	width: 100%;
 }
 body {
 	padding-top: 60px;
@@ -123,6 +122,39 @@ textarea{
 		margin-bottom: 10px;
 		color: #f5512e;
 	}
+}
+
+.about {
+	background-color: #f3d527;
+}
+
+.left_bio {
+	float: left;
+	padding-left: 100px;
+	width: 50%;
+	h1 {
+		margin-bottom: 10px;
+		color: #f5512e;
+		text-align: left;
+	}
+	h2 {
+		font-weight: lighter;
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+	p {
+		font-size:1.2em;
+		text-align: justify;
+	}
+}
+
+.right_bio {
+	float: right;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 50%;
+
 }
 
 
