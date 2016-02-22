@@ -46,7 +46,7 @@ p {
 
 }
 
-.btn{
+.btn {
 	
 	background:none;
 	border: 2px solid #f5512e;
@@ -62,22 +62,35 @@ p {
 /* footer */
 
 footer {
-	margin-top: 45px;
-	padding-top: 5px;
+	
+	padding-top: 100px;
 	border-top: 1px solid #eaeaea;
 	color: $gray-light;
-	a {
-		color: #555;
-		&:hover {
-			color: #222;
-		}
+	padding-bottom: 30px;
+	background: #222;
+
+	ul{
+		padding-left: 50px;
+		margin-top: 5px;
 	}
-	small{
-		float: left;
+
+	li{
+		display: inline;
+		padding: 2.5px;
+		margin-left: 0px;
 	}
-	
+
+	h2 { 
+		color: #f3d527;
+		text-align:left;
+		padding-left: 50px;
+	}
 }
 
+.top {
+	float:right;
+	padding-right: 50px;
+}
  
 /* portfolio_bar */
 
@@ -92,6 +105,13 @@ footer {
 			display:inline-block;
 			margin: 25px;
 	}
+
+	p {
+		padding-top: 20px;
+		font-weight: bold;
+		color: #8C001A;
+		font-size: .8em;
+	}
 	
 }
 
@@ -102,7 +122,7 @@ footer {
 	
 	padding: 25px;
 	h1 {
-		border-bottom: 2px solid #111;
+		border-bottom: 2px solid #222;
 		padding-bottom: 25px;
 	}
 

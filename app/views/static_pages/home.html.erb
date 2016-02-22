@@ -13,11 +13,21 @@
 	<h2>Explore my portfolio by project type:</h2>
 	<nav>
 		<ul>
-			<li><%= link_to image_tag("web.png", size: "85", alt: "websites"), portfolio_path + "#website" %></li>
-			<li><%= link_to image_tag("mobile.png", size: "85", alt: "mobile"), portfolio_path + "#mobile" %></li>
-			<li><%= link_to image_tag("networking.png", size: "85", alt: "networking"), portfolio_path + "#networking" %></li>
-			<li><%= link_to image_tag("graphics.png", size: "85", alt: "graphics"), portfolio_path + "#graphics" %></li>
-			<li><%= link_to image_tag("desktop.png", size: "85", alt: "desktop"), portfolio_path + "#desktop"%></li>
+			<li><%= link_to image_tag("web.png", size: "85", alt: "web"), portfolio_path + "#website" %>
+				<p>web</p>	
+			</li>
+			<li><%= link_to image_tag("mobile.png", size: "85", alt: "mobile"), portfolio_path + "#mobile" %>
+				<p>mobile</p>
+			</li>
+			<li><%= link_to image_tag("networking.png", size: "85", alt: "networking"), portfolio_path + "#networking" %>
+				<p>networking</p>
+			</li>
+			<li><%= link_to image_tag("graphics.png", size: "85", alt: "graphics"), portfolio_path + "#graphics" %>
+				<p>graphic</p>
+			</li>
+			<li><%= link_to image_tag("desktop.png", size: "85", alt: "desktop"), portfolio_path + "#desktop"%>
+				<p>desktop</p>
+			</li>
 		</ul>
 	</nav>
 
