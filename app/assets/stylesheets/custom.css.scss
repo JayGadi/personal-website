@@ -12,7 +12,7 @@ h1 {
 	letter-spacing: -2px;
 	margin-bottom: 30px;
 	text-align: center;
-	
+		
 }
 
 h2 {
@@ -141,14 +141,42 @@ footer {
 }
 
 .details {
+
 	padding-left: 15px;
-	h2{
+	
+	h2 {
 		text-align: left;
 		color: #111;
 		margin-top: 10px;
 		color:#f5512e;
 	}
 	
+}
+
+/* contact */
+
+.contact {
+
+	background-color: #f3d527;
+	padding-left: 100px;
+	padding-right: 100px;
+	h1 {
+		text-align: left;
+		color: #f5512e;
+	}
+
+	p{
+		text-align: left;
+	}
+}
+
+.email_me {
+	margin-right: 100px;
+	margin-left:100px;
+	h2 {
+		font-size: 2em;
+		color: #000;
+	}
 }
 
 
