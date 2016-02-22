@@ -40,10 +40,8 @@ p {
 
 .navbar-default .navbar-nav > li > a {
     color: #f5512e;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-
+    padding: 25px 25px 0px 25px;
+   
 }
 
 .btn {
@@ -62,34 +60,26 @@ p {
 /* footer */
 
 footer {
-	
-	padding-top: 100px;
-	border-top: 1px solid #eaeaea;
-	color: $gray-light;
+	padding-top: 50px;
 	padding-bottom: 30px;
-	background: #222;
+	background-color: #222;
 
 	ul{
-		padding-left: 50px;
 		margin-top: 5px;
+		padding-left: 0px;
 	}
 
 	li{
 		display: inline;
 		padding: 2.5px;
-		margin-left: 0px;
+		
 	}
 
 	h2 { 
 		color: #f3d527;
-		text-align:left;
-		padding-left: 50px;
+		margin-top: 0px;
 	}
-}
 
-.top {
-	float:right;
-	padding-right: 50px;
 }
  
 /* portfolio_bar */
