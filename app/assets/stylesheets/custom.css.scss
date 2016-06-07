@@ -1,5 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
 
 /* typography */
 
@@ -44,6 +48,8 @@ p {
    
 }
 
+/* home */
+
 .btn {
 	
 	background:none;
@@ -72,13 +78,16 @@ footer {
 	li{
 		display: inline;
 		padding: 2.5px;
-		
 	}
 
-	h2 { 
+	a {
 		color: #f3d527;
-		margin-top: 0px;
+		&:hover {
+			text-decoration: none;
+			color: #F3CB2E;
+		}
 	}
+
 
 }
  
@@ -121,6 +130,7 @@ footer {
 		
 		li {
 
+
 			margin: 20px;
 			display: inline-block;
 			border-radius: 2px;
@@ -155,6 +165,24 @@ footer {
 
 /* contact */
 
+.social {
+	margin: 0;
+	padding: 0;
+}
+
+.social ul{
+	margin: 0;
+	padding: 5px;
+}
+
+.social ul li {
+	margin: 5px;
+	list-style: none;
+	text-align: left;
+
+}
+
+
 .contact {
 
 	background-color: #f3d527;
@@ -179,31 +207,7 @@ footer {
 	}
 }
 
-
-.container {
-	width: 100%;
-}
-body {
-	padding-top: 60px;
-}
-
-section{
-	overflow: auto;
-}
-
-textarea{
-	resize: verticle;
-}
-
-.center {
-	text-align: center;
-	background-color: #f3d527;
-	
-	h1 {
-		margin-bottom: 10px;
-		color: #f5512e;
-	}
-}
+/* About Page */
 
 .about {
 	background-color: #f3d527;
@@ -239,5 +243,31 @@ textarea{
 
 }
 
+
+
+.container {
+	width: 100%;
+}
+body {
+	padding-top: 60px;
+}
+
+section{
+	overflow: auto;
+}
+
+textarea{
+	resize: verticle;
+}
+
+.center {
+	text-align: center;
+	background-color: #f3d527;
+	
+	h1 {
+		margin-bottom: 10px;
+		color: #f5512e;
+	}
+}
 
 
