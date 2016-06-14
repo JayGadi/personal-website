@@ -1,16 +1,17 @@
 <%= provide(:title, "About") %>
 
 <div class="about jumbotron container">
-	
-	<div class="left_bio" align="center">
-		<h1>about me.</h1>
-		<h2>I am a Computer Science student that just graduated from Carleton University.</h2>
-		<p>I am a robot sent to turn coffee into code. When I'm not programming you can find me at my day job as a fashion police. I am still waiting for a worthy opponent to beat me in music trivia (I listen to a lot of music). Programming, tech, photography, graphic Design, cars, music, and drinking many beers are some of 
-		my many hobbies. Lets grab a beer, or hit up a concert!  </p>
-	</div>
+	<div class="row">
+		<div class="col-sm-6 left_bio" align="center">
+			<h1>about me.</h1>
+			<h2>I am a Computer Science student that just graduated from Carleton University.</h2>
+			<p>I am a robot sent to turn coffee into code. When I'm not programming you can find me at my day job as a fashion police. I am still waiting for a worthy opponent to beat me in music trivia (I listen to a lot of music). Programming, tech, photography, graphic Design, cars, music, and drinking many beers are some of 
+			my many hobbies. Lets grab a beer, or hit up a concert!  </p>
+		</div>
 
-	<div class="right_bio" align="center">
-		<%= image_tag("aboutme.png", size: "533x400", alt:"My Picture") %>
+		<div class="col-sm-6 right_bio" align="center">
+			<%= image_tag("aboutme.png", size: "533x400", alt:"My Picture") %>
+		</div>
 	</div>
 	
 </div>
